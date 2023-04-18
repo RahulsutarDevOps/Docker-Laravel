@@ -43,7 +43,6 @@ RUN docker-php-ext-install \
     bz2 \
     zip \
     intl
-
 # Install Postgre PDO
 RUN apt-get install -y libpq-dev \
     && docker-php-ext-configure pgsql -with-pgsql=/usr/local/pgsql \
