@@ -1,4 +1,4 @@
-version: '4'
+version: '3.3'
 
 services:
 
@@ -26,9 +26,9 @@ services:
     working_dir: /var/www
 
   #phpMyAdmin Service
-    phpmyadmin:
-      image: phpmyadmin/phpmyadmin
-      container_name: phpmyadmin
-      ports:
-        - "3400:80"
+  #  phpmyadmin:
+  #    image: phpmyadmin/phpmyadmin
+  #    container_name: phpmyadmin
+  #    ports:
+  #      - "3400:80"
   
